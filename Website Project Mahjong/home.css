@@ -1,0 +1,43 @@
+html {
+  background: url("img/mahjong.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+body {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 15px;
+  width: 600px;
+  margin: 25px auto;
+  padding: 25px 150px 50px;
+}
+
+.nav a {
+  margin: 0px 40px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+h1 {
+  color: rgb(15, 27, 95);
+  font-size: 120px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+img {
+  border-radius: 15px;
+}
+
+a:hover {
+  font-weight: bold;
+}

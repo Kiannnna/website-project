@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css" />
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <!-- NAVIGATION BAR -->
+    <p class="nav">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="quiz.html">Quiz</a>
+    </p>
+
+    <!-- PAGE TITLE & CONTENT -->
+    <form id="quizForm">
+    <h1>MAHJONG QUIZ</h1>
+    <hr />
+    <h2>Question 1</h2>
+    <label for="q1">How many different types of Mahjiong are there? 5 or 7?</label>
+    <h3>Answer1: <input id="Answer1" type="text" name="Answer1"/></h3>
+    <hr />
+    <h2>Question 2</h2>
+    <label for="q2">How many different suited tiles are there?</label>
+    <h3>Answer2: <input id="Answer2" type="text" name="Answer2"/></h3>
+    <hr />
+    <h2>Question 3</h2>
+    <label for="q3">How many Honors tiles are there?</label>
+    <h3>Answer3: <input id="Answer3" type="text" name="Answer3"/></h3>
+    <hr />
+    <h2>Question 4</h2>
+    <label for="q4">How many Bonus tiles are there?</label>
+    <h3>Answer4: <input id="Answer4" type="text" name="Answer4"/></h3>
+    <hr />
+    <button type="submit">Marked</button>
+    </form>
+    <div id="feedbackContainer"></div>
+    <div id="resultContainer"></div>
+  </body>
+</html>
